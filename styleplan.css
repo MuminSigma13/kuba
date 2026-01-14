@@ -1,0 +1,67 @@
+
+h2{
+	front-size: 30px;
+	color: red;
+}
+h1{
+	front-size: 26px;
+	color: 	#DA70D6;
+	
+}
+h3{
+	front-size: 26px;
+	color : #FF6347;
+}
+td{
+	background-color: 	#EEE8AA;
+}
+th{
+	background-color: 	#FFE4E1;
+}
+td {
+  color: #fff;
+  text-shadow: 0 0 5px #00f3ff, 0 0 10px #00f3ff, 0 0 20px #00f3ff;
+}
+p {
+  color: #fff;
+  text-shadow: 0 0 5px #00f3ff, 0 0 10px #00f3ff, 0 0 20px #00f3ff;
+}
+
+}
+table {
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+table:hover {
+  
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transform: translateY(-5px); 
+}
+body {
+    background: linear-gradient(190deg, #001aaa, #e69ad3, #e4e824);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
